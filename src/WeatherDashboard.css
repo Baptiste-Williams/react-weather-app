@@ -1,0 +1,126 @@
+/* Reset and Base Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f0f0;
+  transition: background-color 0.5s ease;
+}
+
+.weather-dashboard.dark {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0077b6;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button {
+  background-color: white;
+  color: #0077b6;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.search-section input {
+  padding: 0.5rem;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-section button {
+  padding: 0.5rem 1rem;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.spinner, .error-message {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.weather-info {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.current-section p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+}
+
+.forecast-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.forecast-card {
+  background-color: #e0f7fa;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 150px;
+  transition: background-color 0.3s ease;
+}
+
+.dark .forecast-card {
+  background-color: #263238;
+  color: #f0f0f0;
+}
+
+.forecast-card img {
+  width: 60px;
+}
+
+.air-quality {
+  background-color: #fff3cd;
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  border-left: 6px solid #ffc107;
+}
+
+.dark .air-quality {
+  background-color: #3e3e3e;
+  border-left-color: #f1c40f;
+}
+
+@media screen and (max-width: 768px) {
+  .forecast-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
