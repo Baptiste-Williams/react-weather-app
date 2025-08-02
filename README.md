@@ -44,8 +44,8 @@ The So Cal Weather App provides users with current weather data, a 5-day forecas
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/BaptisteWilliams/weather-dashboard.git
-   cd weather-dashboard
+   git clone https://github.com/Baptiste-Williams/react-weather-app.git
+
 Install dependencies
 
 bash
