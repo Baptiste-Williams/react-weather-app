@@ -63,7 +63,10 @@ Deploy
 Use Netlify or GitHub Pages to host your app.
 
 🌐 Live Demo
-View the deployed app
+## 🌐 Live Demo
+
+[View the deployed app](https://luminous-swan-6f0018.netlify.app)
+
 
 📁 Submission Notes
 ✅ Built with React and JavaScript
