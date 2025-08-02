@@ -4,6 +4,11 @@ README.md — So Cal Weather App
 
 An interactive weather dashboard built with React and Vite, designed to showcase real-time weather conditions and forecasts for Southern California. This project demonstrates modern JavaScript programming, API integration, and responsive UI design.
 
+
+# Screen Shots
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/c9c37e85-5455-4cc0-992d-cb8d2c913e87" />
+
 ---
 
 ## 🚀 Project Summary
